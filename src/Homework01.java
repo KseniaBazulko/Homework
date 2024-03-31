@@ -34,7 +34,7 @@ public class Homework01 {
         int value = 43;
         if (value <= 0) {
             System.out.println("Красный\n");
-        } else if (value <= 100) {
+        } else if (value <= 100 && value > 0) {
             System.out.println("Жёлтый\n");
         } else {
             System.out.println("Зелёный\n");
